@@ -19,7 +19,7 @@
 
 html{
     background: #0B0B0B;
-    background: linear-gradient(360deg, rgba(11, 11, 11, 1) 0%, #1c1500 100%);
+    background: linear-gradient(360deg, rgba(11, 11, 11, 1) 50%, #1c1500 100%);
     font-family: "Mystery Quest", cursive;
     color: #f4f3f1;
     scroll-behavior: smooth;
@@ -82,7 +82,7 @@ a:hover{
     width: 35%;
     padding: 0.5em;
 }
-.about img{
+img{
     width: 45%;
     border-radius: 15px;
 }
@@ -90,6 +90,24 @@ hr{
     width: 90%;
     border: 0.5px solid white;
     margin: 2.5em 0em;
+    display: none;
+}
+.concept-container{
+    margin: 1em 0;
+}
+.concept-art{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0em;
+}
+.concept-art img{
+    outline: 1px solid green;
+    opacity: 0;
+}
+.concept-art p, .concept-art img{
+    padding: 0.5em 0.5em;
+    text-align: left;
 }
 @media screen and (max-width: 430px) {
     html{
@@ -103,10 +121,13 @@ hr{
     .portfolio-title{
         width: auto;
     }
-    #investigation{
+    #investigation, #concept{
         text-align: center;
         width: auto;
         padding: 0 0.5em
+    }
+    #investigation > h1, #concept > h1{
+        padding: 1em 0;
     }
     #investigation > h3, #concept > h3{
         font-size: 1.4em;
@@ -120,7 +141,7 @@ hr{
     .nav-bar{
         padding: 1em 0.5em;
     }
-    .about img{
+    img{
         width: 90%;
         border-radius: 15px;
     }
@@ -128,5 +149,20 @@ hr{
         width: 100%;
         border: 0.5px solid white;
         margin: 2.5em auto;
+        display: block;
+    }
+    .concept-container{
+        margin: 5em 0;
+    }   
+    .concept-art{
+        display: block;
+        margin: 1.5em 0em;
+    }
+    .concept-art img{
+        outline: 1px solid green;
+    }
+    .concept-art p, .concept-art img{
+        padding: 0;
+        text-align: center;
     }
 }
