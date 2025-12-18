@@ -1,63 +1,107 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/c6c170a974.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
-    <title>ap portfolio</title>
-</head>
-<body>
-    <div class="main">
-        <section class="portfolio-title">
-            <h1>the digital documentation of a star</h1>
-        </section>
-        <nav class="nav-bar">
-            <a href="#investigation"><i class="fa-solid fa-lightbulb"></i> about</a><br>
-            <a href="#concept"><i class="fa-solid fa-brush"></i> concept art</a><br>
-            <a href="#artworks"> <i class="fa-solid fa-palette"></i> artworks</a>
-        </nav>
-    </div>
-    <div id="investigation">
-        <h1>ABOUT</h1>
-        <h3>- the artist -</h3>
-        <div class="about">
-            <p>my name is kensington diefenderfer, and this is (mostly) the site for my ap art portfolio!
-                i have been doing art since i could hold a crayon, and ive been making my own characters,
-                worlds, and stories just as long. i love to explore my creativity in ways other than drawing,
-                like writing, and coding.<br>
-                i love webcomics, and stories, and making things with my friends, and all three of those things
-                contributed to this portfolio and how this site looks!
-            </p>
-            <img src="artist picture.JPG">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/0d61b5e624.js" crossorigin="anonymous"></script>
+        <title>kensi's portfolio site</title>
+    </head>
+    <body>
+        <div class="main">
+            <h3>how do we see others if we don't know how we see ourselves?</h3>
+            <h1>the portfolio of kensington diefenderfer</h1>
+            <nav>
+                <a id="about" href="#about"><i class="fa-solid fa-user"></i> about</a><br id="mobile-only">
+                <a href="#investigation"><i class="fa-solid fa-pencil"></i> sustained investigation</a><br id="mobile-only">
+                <a href="#portfolio"><i class="fa-solid fa-paintbrush"></i> portfolio</a>
+            </nav>
         </div>
-        <hr>
-        <h3>- my sustained investigation -</h3>
-        <p>in the AP art world, you have something called a "sustained investigation", or the
-            'theme' of your artwork and portfolio. mine is "exploring self-perception and how others
-            percieve you through character design, world-building, and storytelling." i go on to make art,
-            concepts, and designs all centered around this one topic.
-        </p>
-    </div>
-    <br>
-    <div id="concept">
-        <h1>CONCEPT ART</h1>
-        <h3>- purpose of concept art -</h3>
-        <p>because i am exploring an idea through the lens of characters, their designs, and their
-            world/placement in the world, concept art is an important thing! it'll show the progression
-            of their designs (even when they are just menial, seemingly useless changes), their thoughts
-            and their purpose in the story and the art, and what they are trying to represent and show.<br>
-            as of right now, though, there is no concept art to give! very sorry. heres an example of what
-            you might see, though:
-        </p>
-        <hr>
-        <div class="concept-container">
-            <div class="concept-art">
-                <img src="artist picture.JPG">
-                <p>here is some text describing what is going on. pretend there is an image next to this.</p>
+        <div class="about">
+            <h1>about me ᯓ★</h1>
+            <hr id="divider">
+            <div class="internal" id="about">
+                <img src="images/IMG_8014.png" id="portfolio-img">
+                <p id="about-me">hi! my name is kensington diefenderfer, and as you know, this is my portfolio.
+                ive been an artist for a long time and i hope to continue that artistic streak
+                throughout my life. i like to make pieces about and inspired by my characters, stories,
+                music, and other media, and i enjoy combining things i enjoy to make one big picture of things
+                i love. i mainly do digital art, but i've grown a love for watercolor and colored pencils!<br>
+                i like to make a lot of "story" pieces that have emotion and show the story, almost 
+                picture book esque, because i make the words and my writing apart of the art, too.</p>
             </div>
         </div>
-    </div>
-    <br><br>
-</body>
+        <div class="investigation">
+            <h1 id="investigation">my sustained investigation ⋆˚꩜｡</h1>
+            <hr id="divider">
+            <br>
+            <p id="si">in the AP art world, you have something called a "sustained investigation", 
+                or the 'theme' of your artwork and portfolio. 
+                mine is "exploring self-perception and how others percieve you through character design, 
+                world-building, and storytelling." i go on to make art, concepts, and designs all centered around this one topic.</p>
+        </div>
+        <div class="portfolio">
+            <h1 id="portfolio">portfolio ⋆｡°✩</h1>
+            <hr id="divider">
+            <br><br>
+            <div class="art-piece">
+                <div class="piece-info">
+                    <a href="images/wrong place.png" target="_blank"><img src="images/wrong place.png" id="piece"></a>
+                    <h2>"Wrong Place, Wrong Time"<br><span id="details">digital/collage, 8.5inx11in</span>
+                        <p id="desc">this was my first piece, a piece that shows contrast and is supposed to
+                            highlight character design and shapes primarily. it was made to illict
+                            a feeling of discomfort and obvious misplacement and just a general <i>wrong</i>
+                            feeling that you can't quite place.
+                        </p>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="art-piece">
+                <div class="piece-info">
+                    <a href="images/half step.png" target="_blank"><img src="images/half step.png" id="piece"></a>
+                    <h2>"Step 0.5"<br><span id="details">Acrylic paint markers, Colored Pencil, Ink pen, 8.5inx11in</span>
+                        <p id="desc">The first step of Recovery is acceptance, to accept that you struggle and that you have an addiction. 
+                            Step 0.5 is knowing you struggle, but not admitting to it. 
+                            It’s the step you take before you fully commit, and you might be in the limbo of that step for a while before you take the next half step. 
+                            It’s progress, but not as linear and not as smooth as anyone wants it to be– 
+                            it's still grueling and even moving half a step forward is a struggle. 
+                            A step is a step no matter what though, even if you don’t want to admit it.
+                        </p>
+                    </h2>
+                </div>
+            </div>
+            
+            <div class="art-piece">
+                <div class="piece-info">
+                    <a href="images/unraveling girl.png" target="_blank"><img src="images/unraveling girl.png" id="piece"></a>
+                    <h2>"Unraveling Girl"<br><span id="details">Digital, ?x?</span>
+                        <p id="desc">she unraveled herself in front of me, /
+                            and i gazed in envy and in worry. /
+                            i envied how she could just deconstruct herself /
+                            and how she could reveal her vile, painful honesty /
+                            but i worried for her reality and her life, /
+                            because no person could live like this. / 
+                            and then i wondered if this was how people saw me. /
+                            i hope she knows i care, /
+                            i hope she doesnt die before i can say goodbye 
+                        </p>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="art-piece">
+                <div class="piece-info">
+                    <a href="images/rule of three.png" target="_blank"><img src="images/rule of three.png" id="piece"></a>
+                    <h2>"Rule of Three"<br><span id="details">Acrylic Paint Marker, Colored pencils, 7inx10in</span>
+                        <p id="desc">If this is how I’m viewed /
+                            I can’t fathom being the first /
+                            And I can’t have her being next
+                        </p>
+                    </h2>
+                </div>
+            </div>
+
+        </div>
+    </body>
 </html>
